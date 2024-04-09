@@ -1,0 +1,12 @@
+num_1= float(input("Enter a number: "))
+num_2 = float(input("Enter a New number: "))
+equation = input("Enter a sign: ")
+
+if equation == "+":
+    print(float(num_1) + float(num_2))
+elif equation == "-":
+    print(float(num_1) - float(num_2))
+elif equation == "*":
+    print(float(num1) * float(num2))
+elif equation == "/":
+    print(float(num_1) / float(num_2))
